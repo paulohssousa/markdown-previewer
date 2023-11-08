@@ -1,0 +1,20 @@
+@import "variables";
+@import "mixins";
+
+#editor-wrapper {
+    @include wrapper;
+    width: 600px;
+}
+
+#editor {
+    background-color: $color_4;
+    color: $color_6;
+    min-height: 180px;
+    min-width: 100%;
+}
+
+@media (max-width: 408px) {
+    #editor-wrapper {
+        width: 90vw;
+    }
+}

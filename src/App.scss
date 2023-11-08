@@ -1,0 +1,11 @@
+@import "scss/variables";
+
+.App {
+  text-align: left;
+  // background: linear-gradient($color_6, $color_1);
+  background: linear-gradient(90deg, #512DA8, #673AB7);
+  width: 100%;
+  padding-top: 30px;
+  overflow: hidden;
+  min-height: 100vh;
+}
